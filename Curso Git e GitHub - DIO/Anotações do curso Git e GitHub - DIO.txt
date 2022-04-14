@@ -1,0 +1,29 @@
+Git Bash e um terminal estendido para otimizar o uso do Git.
+
+GitHub é o servidor onde os códigos em suas versões finais ficam armazenados
+em repósitorios. (O armazenamento e feito através da nuvem).
+
+Comandos usados no Git Bash: 
+ls -> Lista os arquivos existentes.
+cd -> te permiti adentrar nas pastas.  
+cd ..(dois pontos) -> usado para retornar a pasta anterior.
+mkdir -> cria diretórios.
+del/rmdir -> deleta um determinado arquivo/ deleta o repositório.
+git status -> exibe o estado do arquivos mostrando os que não estao commitados.
+git init -> inicializa um repositório no diretório em que o comando for executado.
+git add* -> adiciona o arquivo no git para ser comitado.
+git commit -m -> comita o arquivo e lhe proporciona escrever uma mensagem refere-
+te as mudanças feitas no arquivo.
+git push origin master -> envia o arquivo as alterações feitas para o GitHub.
+git pull origin master -> usado quando os arquivos entre a máquina e o servidor 
+estão em divergência, fazendo você baixar o aqruivo e atualiza-lo para que fiquem
+iguais.
+gitignore -> ignora os arquivos.
+
+Para cada arquivo criando á estagios em que eles ficam, são três:
+Untracked - é o estado onde o arquivo ainda não foi 'rastreado'.
+Unmodified - é o estado onde o arquivo não sofreu 
+alterações em relação a sua referência.
+Modified - é o estado onde o arquivo sofreu alterações em relação a sua referência.
+Staged - é o estado onde o arquivo já foi endereçado e aguarda ser transferido ao 
+repositório.
